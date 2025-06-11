@@ -5,11 +5,17 @@ MVC:
 
 src/
 ├── modelo/
+
 │   ├── Texto.java
+
 │   ├── Separador.java
+
 │   ├── SeparadorLetra.java
+
 │   ├── SeparadorPalabra.java
+
 │   └── SeparadorLinea.java
+
 │
 ├── controlador/
 │   └── ControladorTexto.java
