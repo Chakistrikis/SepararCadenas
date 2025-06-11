@@ -4,7 +4,7 @@ Este proyecto implementa una aplicación de consola en Java que permite dividir 
 
 ---
 
-## 📐 Patrón de Diseño: Strategy Patter + MVC 
+## 📐 Patrón de Diseño: Strategy Pattern + MVC 
 
 ### 🔸 Modelo (`model/`)
 Contiene la lógica de negocio y la estructura de datos.
@@ -18,7 +18,7 @@ Contiene la lógica de negocio y la estructura de datos.
 ### 🔸 Controlador (`controller/`)
 Gestiona la interacción entre la Vista y el Modelo.
 
-- `TextController.java`: configura el texto, asigna el tipo de separador y ejecuta la operación `dividir()`.
+- `TextController.java`: configura el texto, asigna el tipo de separador y ejecuta la operación `split()`.
 
 ### 🔸 Vista (`view/`)
 Interfaz con el usuario.
