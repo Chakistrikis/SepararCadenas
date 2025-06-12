@@ -23,7 +23,7 @@ Gestiona la interacción entre la Vista y el Modelo.
 ### 🔸 Vista (`view/`)
 Interfaz con el usuario.
 
-- `ConsoleView.java`: muestra opciones por consola, recibe entrada del usuario y muestra los resultados.
+- `ConsoleView.java`: muestra formato de salida (TODO: Entradas del usuario).
 
 ### 🔸 Aplicación (`app/`)
 Contiene el punto de entrada del programa.
