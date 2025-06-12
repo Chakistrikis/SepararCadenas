@@ -4,14 +4,10 @@ import azc.uam.model.ISeparator;
 import azc.uam.model.Text;
 
 public class TextController {
-    private Text text;
+    private final Text text;
 
     public TextController(){
         text = new Text();
-    }
-
-    public Text getText() {
-        return text;
     }
 
     public void setText(String input) {
