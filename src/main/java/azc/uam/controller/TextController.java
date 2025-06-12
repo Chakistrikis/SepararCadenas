@@ -22,7 +22,7 @@ public class TextController {
         text.setSeparator(separator);
     }
 
-    public String[] obtainSplit(){
+    public String[] split(){
         return text.split();
     }
 }

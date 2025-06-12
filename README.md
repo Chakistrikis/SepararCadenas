@@ -9,7 +9,7 @@ Este proyecto implementa una aplicación de consola en Java que permite dividir 
 ### 🔸 Modelo (`model/`)
 Contiene la lógica de negocio y la estructura de datos.
 
-- `Text.java`: representa el texto a dividir. Contiene los métodos `getString()`, `setString()`, y `split()`.
+- `Text.java`: representa el texto a dividir. Contiene los métodos `getText()`, `setText()`, `split()` y `setSeparator()`.
 - `ISeparator.java`: interfaz que define el método `separate()`.
 - `LetterSeparator.java`: divide el texto letra por letra.
 - `WordSeparator.java`: divide el texto por palabras.

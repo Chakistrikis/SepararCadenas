@@ -14,12 +14,12 @@ public class Main {
         controller.setText(input);
 
         controller.useSeparator(new WordSeparator());
-        view.showResult(controller.obtainSplit());
+        view.showResult(controller.split());
 
         controller.useSeparator(new LineSeparator());
-        view.showResult(controller.obtainSplit());
+        view.showResult(controller.split());
 
         controller.useSeparator(new LetterSeparator());
-        view.showResult(controller.obtainSplit());
+        view.showResult(controller.split());
     }
 }
