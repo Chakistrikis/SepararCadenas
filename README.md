@@ -52,4 +52,12 @@ src/
     └── Main.java
 ```
 
+## 💻IDE y Configuración
+
+- IntelliJ IDEA 2024.3.5
+- Maven: 23
+- Dependencias: No
+- Versión: 1.0-SNAPSHOT
+
+
 
