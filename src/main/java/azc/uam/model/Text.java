@@ -1,7 +1,8 @@
 package azc.uam.model;
 
-public class Text implements ISeparator {
+public class Text {
     private String text;
+    private ISeparator separator;
 
     public Text() {}
 
@@ -17,12 +18,13 @@ public class Text implements ISeparator {
         this.text = text;
     }
 
-    public void split(){
-
+    public void setSeparator(ISeparator separator){
+        this.separator = separator;
     }
 
-    @Override
-    public String[] separate(Text text) {
-        return new String[0];
+    public String[] split(){
+        String[] elements;
+        elements = separator.separate(this);
+        return elements;
     }
 }

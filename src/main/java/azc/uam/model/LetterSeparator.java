@@ -4,6 +4,6 @@ public class LetterSeparator implements ISeparator {
 
     @Override
     public String[] separate(Text text) {
-        return new String[0];
+        return text.getText().split("");
     }
 }
